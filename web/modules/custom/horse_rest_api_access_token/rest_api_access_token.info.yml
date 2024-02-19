@@ -1,0 +1,7 @@
+name: HORSE REST API Access Token
+description: HORSE REST API Access Token module.
+package: Custom
+type: module
+configure: rest_api_access_token.config_form
+core_version_requirement: ^8 || ^9 || ^10
+version: '1.0.0'
