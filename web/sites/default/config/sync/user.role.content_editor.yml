@@ -15,6 +15,7 @@ dependencies:
     - system
     - taxonomy
     - toolbar
+    - views_ui
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
@@ -28,6 +29,7 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
+  - 'administer views'
   - 'create article content'
   - 'create page content'
   - 'create terms in tags'

@@ -308,13 +308,22 @@ display:
       style:
         type: serializer
       row:
-        type: data_entity
-        options: {  }
+        type: data_field
+        options:
+          field_options:
+            title:
+              alias: ''
+              raw_output: false
+            body:
+              alias: ''
+              raw_output: false
       defaults:
         style: false
         row: false
       display_extenders: {  }
-      path: /rest/articulos
+      path: rest/articulos
+      auth:
+        - oauth2
     cache_metadata:
       max-age: -1
       contexts:
