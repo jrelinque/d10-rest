@@ -1,12 +1,12 @@
 _core:
   default_config_hash: KsPFWSp6mgXIQgjBJEShfKUGn6VLRlbpIJ2EysXvXWM
 langcode: es
-access_token_expiration: 300
-authorization_code_expiration: 300
+access_token_expiration: 30000
+authorization_code_expiration: 29997
 refresh_token_expiration: 1209600
 token_cron_batch_size: 0
-public_key: /var/www/public.key
-private_key: /var/www/private.key
+public_key: /var/www/html/web/public.key
+private_key: /var/www/html/web/private.key
 remember_clients: true
 use_implicit: false
 disable_openid_connect: false

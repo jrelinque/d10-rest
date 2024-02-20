@@ -12,6 +12,7 @@ dependencies:
     - file
     - node
     - path
+    - simple_oauth
     - system
     - taxonomy
     - toolbar
@@ -43,7 +44,9 @@ permissions:
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'grant simple_oauth codes'
   - 'revert all revisions'
   - 'view all revisions'
+  - 'view own simple_oauth entities'
   - 'view own unpublished content'
   - 'view the administration theme'
