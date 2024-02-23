@@ -1,0 +1,23 @@
+uuid: cd406620-478e-41d4-8867-7700b2cf3104
+langcode: es
+status: true
+dependencies:
+  module:
+    - statistics
+  theme:
+    - olivero
+id: olivero_contenidopopular
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: statistics_popular_block
+settings:
+  id: statistics_popular_block
+  label: 'Contenido popular'
+  label_display: visible
+  provider: statistics
+  top_day_num: 10
+  top_all_num: 10
+  top_last_num: 10
+visibility: {  }

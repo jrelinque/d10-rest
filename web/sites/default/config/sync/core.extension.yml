@@ -3,6 +3,7 @@ _core:
 langcode: es
 module:
   announcements_feed: 0
+  auto_translation: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -28,6 +29,8 @@ module:
   language: 0
   link: 0
   locale: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -42,6 +45,7 @@ module:
   serialization: 0
   shortcut: 0
   simple_oauth: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -49,6 +53,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  content_translation: 10
   views: 10
   standard: 1000
 theme:

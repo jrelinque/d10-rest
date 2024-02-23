@@ -1,0 +1,13 @@
+auto_translation_content_types:
+  audio: audio
+  document: document
+  image: image
+  remote_video: remote_video
+  video: video
+  article: article
+  page: page
+auto_translation_api_enabled: false
+auto_translation_api_key: ''
+auto_translation_provider: libretranslate
+interval: null
+auto_translation_excluded_fields: ''
