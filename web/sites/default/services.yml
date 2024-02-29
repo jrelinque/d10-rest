@@ -210,7 +210,7 @@ parameters:
     # Specify allowed headers, like 'x-allowed-header'.
     allowedHeaders: ['x-allowed-header','x-csrf-token','authorization','content-type','accept','origin','x-requested-with']
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
-    allowedMethods: ['GET', 'POST', 'PATCH','DELETE','PUT,'OPTIONS']
+    allowedMethods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT', 'OPTIONS']
     # Configure requests allowed from specific origins. Do not include trailing
     # slashes with URLs.
     allowedOrigins: ['*']
